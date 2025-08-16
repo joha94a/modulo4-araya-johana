@@ -1,0 +1,60 @@
+/* styles.css */
+
+.custom-column {
+  background-color: #4b1f1f; /* marrón oscuro */
+  min-height: 300px;
+}
+
+
+.custom-column {
+  background-color: #041730;
+  min-height: 300px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Más espacio entre tarjetas */
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5f7fa; /* Fondo suave */
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Botones dentro de la card */
+.card .btn {
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.card .btn:hover {
+  transform: scale(1.03);
+}
